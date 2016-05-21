@@ -15,7 +15,7 @@ namespace trails.Controllers
 
         public IActionResult About()
         {
-            ViewData["Message"] = "Your application description page.";
+            ViewData["Message"] = "This Code was generated using Yeoman and is intended to give me a better understanding of ASP.NET.";
 
             return View();
         }
